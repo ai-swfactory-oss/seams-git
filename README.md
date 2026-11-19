@@ -2,7 +2,7 @@
 
 Seams for git and git worktrees: typed SDKs that put git and git worktree operations behind a seam, each with a fake for tests.
 
-The code arrives by migration from the private monorepo `ai-swfactory/seams`; until then each package is a skeleton.
+This repository holds only the guarded skeleton so far: `createGit()` returns a seam whose `status()` reports no branch and no changed paths, and `createWorktrees()` one whose `list()` holds no worktrees; each package's `./testing` holds a fake of it.
 
 ## Packages
 
