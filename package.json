@@ -1,7 +1,6 @@
 {
   "name": "seams-git-monorepo",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "license": "MIT",
   "description": "seams-git workspace: seams for git and git worktrees.",

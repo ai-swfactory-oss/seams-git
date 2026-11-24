@@ -1,0 +1,3 @@
+WorktreeEntry: interface WorktreeEntry { readonly path: string; readonly branch: string | null; }
+Worktrees: interface Worktrees { readonly list: () => readonly WorktreeEntry[]; }
+createWorktrees: const createWorktrees: () => Worktrees

@@ -1,0 +1,3 @@
+Git: interface Git { readonly status: () => GitStatus; }
+GitStatus: interface GitStatus { readonly branch: string | null; readonly changedPaths: readonly string[]; }
+createGit: const createGit: () => Git

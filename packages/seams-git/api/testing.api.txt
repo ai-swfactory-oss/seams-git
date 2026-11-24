@@ -1,0 +1,1 @@
+createFakeGit: const createFakeGit: (status?: GitStatus) => Git
